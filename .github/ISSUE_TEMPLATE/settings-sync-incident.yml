@@ -3,27 +3,6 @@ description: Incident impacting Visual Studio Code Settings Sync
 title: "Availability degradation"
 labels: ["settings sync"]
 body:
-  - type: dropdown
-    id: environment
-    attributes:
-      label: Environment
-      options:
-        - Insiders
-        - Stable
-    validations:
-      required: true
-  - type: dropdown
-    id: regions
-    attributes:
-      label: Impacted Region(s)
-      multiple: true
-      options:
-        - Asia South-East
-        - Europe West
-        - US East
-        - US West2
-    validations:
-      required: true
   - type: input
     id: startTime
     attributes:

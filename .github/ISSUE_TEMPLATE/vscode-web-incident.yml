@@ -1,0 +1,26 @@
+name: VS Code for the Web incident
+description: Incident impacting Visual Studio Code for the Web
+title: "Availability degradation"
+labels: ["vscode web"]
+body:
+  - type: input
+    id: startTime
+    attributes:
+      label: Start time (UTC)
+      placeholder: YYYY-MM-DD HH:mm
+    validations:
+      required: true
+  - type: input
+    id: endTime
+    attributes:
+      label: End time (UTC)
+      placeholder: YYYY-MM-DD HH:mm
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      placeholder: A brief description of the customer impact.
+    validations:
+      required: true
